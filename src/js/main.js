@@ -108,9 +108,4 @@ document.querySelector('#app').innerHTML = `
 
         <span class="close">x</span>
     </div></div>
-
-
-TEST
-
-
 `;
