@@ -1,5 +1,5 @@
 #app {
-    font-family: avenir, helvetica, arial, sans-serif;
+    /* font-family: avenir, helvetica, arial, sans-serif; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
@@ -8,7 +8,9 @@
 }
 
 .modal-content {
-    width: 1039px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
     background: #fff;
     border-radius: 16px;
     display: flex;
@@ -191,4 +193,53 @@
 .wrapper-unchecked-size {
     background: white;
     display: flex;
+}
+
+.colored-square1 {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #00458a;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.colored-square2 {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #efe8d8;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.colored-square3 {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #d4d4da;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.close {
+    position: absolute;
+    border: none;
+    background: none;
+    top: 3px;
+    right: -3px;
+    padding: 30px;
+    margin-right: 8px;
+    color: #888b94;
+    font-size: 34px;
+    font-weight: 400;
 }
