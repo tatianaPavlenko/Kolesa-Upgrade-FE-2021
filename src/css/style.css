@@ -253,6 +253,7 @@
     width: 1400px;
     background: #fff;
     display: grid;
+    margin: auto;
 }
 
 .header {
@@ -433,7 +434,7 @@
     flex-direction: column;
 }
 
-.item-active {
+.item:hover {
     display: flex;
     flex-direction: column;
     border-radius: 8px;
@@ -444,7 +445,40 @@
     margin: 16px;
 }
 
+/* .info-buttons:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1c1819;
+    font-weight: 600;
+    padding-left: 24px;
+    padding-right: 28px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.wrapper-for-buttons:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1c1819;
+    font-weight: 600;
+    padding-left: 24px;
+    padding-right: 28px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+} */
+
 .get-points {
+    width: 100%;
     background: #eff8eb;
     border: none;
     display: flex;
@@ -467,6 +501,7 @@
 }
 
 .how-to-get-points {
+    width: 100%;
     background: #fffae7;
     border: none;
     display: flex;
@@ -486,6 +521,7 @@
 }
 
 .present-points {
+    width: 100%;
     background: #e9f2fb;
     border: none;
     display: flex;
@@ -590,7 +626,7 @@
     text-decoration: none;
 }
 
-.item-price-active {
+.item-price:hover {
     color: #f33;
     font-size: 24px;
     line-height: 36px;
