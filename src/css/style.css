@@ -1,8 +1,245 @@
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    /* font-family: avenir, helvetica, arial, sans-serif; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+    background: rgb(203, 206, 221);
+}
+
+.modal-content {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
+    background: #fff;
+    border-radius: 16px;
+    display: flex;
+}
+
+.wrapper-modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.price-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-image {
+    margin-top: 56px;
+    margin-left: 56px;
+}
+
+.image-preview {
+    margin-top: 16px;
+}
+
+.image-preview img {
+    margin-right: 8px;
+}
+
+.active-preview img {
+    border: 1px solid #2a81dd;
+    border-radius: 8px;
+}
+
+.description {
+    margin-top: 64px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.naming {
+    font-weight: 400;
+    display: flex;
+}
+
+.order-button {
+    display: flex;
+    line-height: 24px;
+    font-size: 14px;
+    background: #2a81dd;
+    border-radius: 8px;
+    min-width: 134px;
+    min-height: 36px;
+    border: none;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+}
+
+.product-price {
+    display: flex;
+}
+
+.user-points {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-block user-points {
+    display: flex;
+    align-items: flex-end;
+}
+
+.available-colors {
+    font-size: 14px;
+    display: flex;
+    color: #1c1819;
+}
+
+.radio-buttons {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.radio-buttons-color input {
+    display: none;
+}
+
+.radio-buttons-color {
+    background: #d6ecfb;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 0;
+    font-size: 14px;
+    margin-right: 16px;
+    height: 40px;
+}
+
+.radio-buttons-color img {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.radio-buttons-color label {
+    margin-right: 8px;
+}
+
+.unchecked-buttons {
+    display: flex;
+    background: #fff;
+    color: #2a81dd;
+}
+
+.size {
+    display: flex;
+    font-size: 14px;
+}
+
+.radio-buttons-size {
+    width: 40px;
+    height: 40px;
+    background: #d6ecfb;
+    margin-right: 8px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.radio-buttons-size input {
+    display: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-title {
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.info-description {
+    display: flex;
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.how-to-choose {
+    display: flex;
+    color: #1c1819;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.how-to-choose-description {
+    display: flex;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1c1819;
+}
+
+.wrapper-unchecked-size {
+    background: white;
+    display: flex;
+}
+
+.colored-square1 {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #00458a;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.colored-square2 {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #efe8d8;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.colored-square3 {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #d4d4da;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.close {
+    position: absolute;
+    border: none;
+    background: none;
+    top: 3px;
+    right: -3px;
+    padding: 30px;
+    margin-right: 8px;
+    color: #888b94;
+    font-size: 34px;
+    font-weight: 400;
 }
